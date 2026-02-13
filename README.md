@@ -21,17 +21,37 @@ This project was developed using the following tools and environment:
 ## Repository Structure
 This repository follows a simplified structure inspired by the TIER Protocol 4.0 to promote reproducibility and clarity. 
 
-Project Root/  
-│── README.md        # Project overview and instructions  
-│── LICENSE.md       # MIT License  
-│  
-│── SCRIPTS/         # All code used for data collection, processing, and modeling  
-│  
-│── DATA/            # Raw and cleaned datasets used in the project  
-│  
-│── OUTPUT/          # Final results, model outputs, and visualizations  
+project-1-fantasy-football/
+│── .gitignore       # Specifies intentionally untracked files
+│── LICENSE.md       # MIT License 
+│── README.md        # Project overview and instructions
+│
+│── DATA/            # Raw and processed datasets used throughout the pipeline
+│   │── 1_fantasypros_articles.csv
+│   │── 2_ffballers_articles.csv
+│   │── 3_text_dataset.json
+│   │── 4_fantasy_sentiment_scores_2025.csv
+│   │── fantasy_dataset_final.csv
+│   │── stats_dataset_2025_cleaned.csv
+│
+│── OUTPUT/          # Python scripts implementing the full data pipeline
+│   │── DS4002_Project_1_Methodology_and_Evaluation.ipynb
+│   │── eda_plots.ipynb
+│
+│── SCRIPTS/         # Final analysis notebooks and results
+│   │── 1_scrape_fantasypros.py
+│   │── 2_scrape_ffballers.py
+│   │── 3_parse_csv_fantasypros.py
+│   │── 4_parse_csv_ffballers.py
+│   │── 5_filter_json_by_date.py
+│   │── 6_analyses_by_name.py
+│   │── 7_clean_player_names.py
+│   │── 8_sentiment_analysis.py
+│   │── 9_merge_sentiment_stats.py
+│   │── fantasy_25_master_dataset.py
 
-## Folder Descriptions _ EDIT THIS SECTION BEFORE SUBMISSION
+
+## Folder Descriptions
 
 SCRIPTS/
 Contains Python scripts and/or notebooks used to:
@@ -52,6 +72,7 @@ Contains generated results such as:
 Processed datasets ready for modeling
 Model predictions
 Tables, charts, or figures used in analysis
+
 
 ## Reproducing Results
 
