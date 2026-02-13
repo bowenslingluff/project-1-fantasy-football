@@ -21,7 +21,7 @@ This project was developed using the following tools and environment:
 ## Repository Structure
 This repository follows a simplified structure inspired by the TIER Protocol 4.0 to promote reproducibility and clarity. 
 
-project-1-fantasy-football/
+```project-1-fantasy-football/
 │
 ├── .gitignore                      # Specifies intentionally untracked files
 ├── LICENSE.md                      # MIT License
@@ -50,6 +50,7 @@ project-1-fantasy-football/
     ├── 8_sentiment_analysis.py
     ├── 9_merge_sentiment_stats.py
     └── fantasy_25_master_dataset.py
+```
 
 
 ## Folder Descriptions
