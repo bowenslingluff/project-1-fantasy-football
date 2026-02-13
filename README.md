@@ -29,10 +29,10 @@ project-1-fantasy-football/
 ├── README.md                       # Project overview and instructions
 │
 ├── DATA/                           # Raw and processed datasets used throughout the pipeline
-│   ├── 1_fantasypros_articles.csv
-│   ├── 2_ffballers_articles.csv
-│   ├── 3_text_dataset.json
-│   ├── 4_fantasy_sentiment_scores_2025.csv
+│   ├── fantasypros_articles.csv
+│   ├── ffballers_articles.csv
+│   ├── text_dataset.json
+│   ├── fantasy_sentiment_scores_2025.csv
 │   ├── fantasy_dataset_final.csv
 │   └── stats_dataset_2025_cleaned.csv
 │
@@ -48,8 +48,8 @@ project-1-fantasy-football/
     ├── 5_filter_json_by_date.py
     ├── 6_analyses_by_name.py
     ├── 7_clean_player_names.py
-    ├── 8_sentiment_analysis.py
-    ├── 9_merge_sentiment_stats.py
+    ├── 8_merge_sentiment_stats.py
+    ├── sentiment_analysis.py
     └── fantasy_25_master_dataset.py
 ```
 
