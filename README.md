@@ -21,15 +21,15 @@ This project was developed using the following tools and environment:
 ## Repository Structure
 This repository follows a simplified structure inspired by the TIER Protocol 4.0 to promote reproducibility and clarity. 
 
-Project Root/
-│── README.md        # Project overview and instructions
-│── LICENSE.md       # MIT License
-│
-├── SCRIPTS/         # All code used for data collection, processing, and modeling
-│
-├── DATA/            # Raw and cleaned datasets used in the project
-│
-└── OUTPUT/          # Final results, model outputs, and visualizations
+Project Root/  
+│── README.md        # Project overview and instructions  
+│── LICENSE.md       # MIT License  
+│  
+│── SCRIPTS/         # All code used for data collection, processing, and modeling  
+│  
+│── DATA/            # Raw and cleaned datasets used in the project  
+│  
+│── OUTPUT/          # Final results, model outputs, and visualizations  
 
 ## Folder Descriptions _ EDIT THIS SECTION BEFORE SUBMISSION
 
