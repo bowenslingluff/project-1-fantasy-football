@@ -55,12 +55,13 @@ Tables, charts, or figures used in analysis
 
 ## Reproducing Results
 
-To reproduce the results of our analysis, follow these steps:
+To reproduce the results of our analysis, follow these steps.
+**NOTE**: We ran the sentiment analysis BEFORE we created our final dataset, so you will not be able to reproduce the results without recreating the entire dataset. Check out SCRIPTS/sentiment_analysis.py to see the analysis.
+
 1. Clone the git reposity
 2. Open the OUTPUT directory, which contains two files:
    - eda_plots.ipynb: Exploratory data analysis and plots we investigated
    - DS4002_Project_1_Methodology_and_Evaluation.ipynb: Full output of our analysis
-  NOTE: We ran the sentiment analysis BEFORE we created our final dataset, so you will not be able to reproduce the results without recreating the entire dataset. Check out SCRIPTS/sentiment_analysis.py to see the analysis.
 3. Run the files described above cell by cell to see the results from our analysis
 
 Alternatively,
