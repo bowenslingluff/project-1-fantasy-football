@@ -53,7 +53,31 @@ Processed datasets ready for modeling
 Model predictions
 Tables, charts, or figures used in analysis
 
+## Reproducing Results
 
+To reproduce the results of our analysis, follow these steps:
+1. Clone the git reposity
+2. Open the OUTPUT directory, which contains two files:
+   - eda_plots.ipynb: Exploratory data analysis and plots we investigated
+   - DS4002_Project_1_Methodology_and_Evaluation.ipynb: Full output of our analysis
+  NOTE: We ran the sentiment analysis BEFORE we created our final dataset, so you will not be able to reproduce the results without recreating the entire dataset. Check out SCRIPTS/sentiment_analysis.py to see the analysis.
+3. Run the files described above cell by cell to see the results from our analysis
+
+Alternatively,
+1. Download the following files:
+  - DATA/fantasy_dataset_final.csv
+  - DATA/text_dataset.json
+  - OUTPUTS/eda_plots.ipynb
+  - OUTPUTS/DS4002_Project_1_Methodology_and_Evaluation.ipynb
+2. Before Running the notebook files, you will have to adjust the following lines to point to your downloaded datasets.
+```python
+# Located in the first cell:
+INPUT_FILE = "../DATA/3_text_dataset.json"
+
+# Located in the last cell:
+df = pd.read_csv('../DATA/fantasy_dataset_final.csv')
+```
+3. Run the notebook files cell by cell to see the results of the analysis
 
 
 
